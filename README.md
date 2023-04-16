@@ -1,10 +1,38 @@
-# House-price-prediction
-This data science projectis a real estate price prediction website. We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com. Second step would be to write a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. Technology and tools wise this project covers,
+Real Estate Price Prediction Website
+====================================
 
-Python
-Numpy and Pandas for data cleaning
-Matplotlib for data visualization
-Sklearn for model building
-Jupyter notebook, visual studio code and pycharm as IDE
-Python flask for http server
-HTML/CSS/Javascript for UI
+This data science project is focused on building a website that predicts real estate prices using a linear regression model built with scikit-learn. The dataset used for building the model is the Bangalore home prices dataset from Kaggle.com.
+
+Project Components
+------------------
+
+1.  **Model Building**: We will use scikit-learn to build a linear regression model that will be used for real estate price prediction. During the model building process, we will cover various data science concepts, including data loading and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tuning, and k-fold cross-validation.
+
+2.  **Python Flask Server**: We will build a Python Flask server that will use the saved model to serve HTTP requests.
+
+3.  **Website**: The website will be built using HTML, CSS, and JavaScript. It will allow users to input information about the property, such as the square footage and number of bedrooms, and retrieve the predicted price from the Python Flask server.
+
+Technologies and Tools Used
+---------------------------
+
+The following technologies and tools were used for this project:
+
+-   Python
+-   NumPy and Pandas for data cleaning
+-   Matplotlib for data visualization
+-   scikit-learn for model building
+-   Jupyter Notebook, Visual Studio Code, and PyCharm as IDE
+-   Python Flask for HTTP server
+-   HTML/CSS/JavaScript for UI
+
+How to Use the Project
+----------------------
+
+To use this project, follow these steps:
+
+1.  Clone the repository to your local machine.
+2.  Install the required dependencies using `pip install -r requirements.txt`.
+3.  Run `python server.py` to start the Flask server.
+4.  Open HTML file in you web browser to run the client.
+5.  Input the required information about the property and click the "Predict Price" button.
+6.  The predicted price for the property will be displayed on the website.
